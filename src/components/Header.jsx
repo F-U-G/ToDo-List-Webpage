@@ -1,5 +1,8 @@
 export default function Header() {
   return (
-    <h1>Header goes here</h1>
+    <div className="header">
+      <h1>ToDo App</h1>
+      <div className="theme-switch"></div>
+    </div>
   )
 }
