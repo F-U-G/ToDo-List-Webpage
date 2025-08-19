@@ -6,7 +6,7 @@
 
 :root {
   --primary-color: #fafafa;
-  --secondary-color: #000088;
+  --secondary-color: #4444ff;
   --dark-color: #000;
 }
 
@@ -21,6 +21,8 @@ a {
   text-decoration: none;
 }
 
+/* Header */
+
 .header {
   border: 1px solid var(--dark-color);
   display: flex;
@@ -32,3 +34,36 @@ a {
   height: 20px;
   background-color: var(--secondary-color);
 }
+
+/* Main */
+
+.container {
+  max-width: 33%;
+  margin: 50px auto;
+}
+
+.todo-form form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.todo-list {
+  margin-top: 50px;
+}
+
+.todo-item {
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
+  border-radius: 5px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.todo-item * {
+  margin: 10px;
+}
+
+/* Mobile */
